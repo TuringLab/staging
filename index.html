@@ -1,10 +1,9 @@
-<!doctype html> <html> <head> <meta charset="utf-8"> <title>Turing Editor</title> <meta name="description" content=""> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.f1c369e0.css"> <link rel="stylesheet" href="app.a347543c.css"> </head> <body ng-app="turingEditorApp"> <!--[if lte IE 8]>
+<!doctype html> <html> <head> <meta charset="utf-8"> <title>TuringLab Learning App</title> <meta name="description" content="Learning to code using the TuringLab Learning App. Browse and edit programming projects in Python, Scratch and Web."> <meta name="viewport" content="width=device-width"> <!-- Place favicon.ico and apple-touch-icon.png in the root directory --> <link rel="stylesheet" href="styles/vendor.0d1c8a91.css"> <link rel="stylesheet" href="app.372f70a5.css"> </head> <body ng-app="turingEditorApp"> <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]--> <!-- Add your site or application content here --> <navbar></navbar> <!-- <div class="container-fluid full-height"> --> <!-- <div ng-view="" class="full-height"></div> --> <!-- </div> --> <div ui-view class="full-height"></div> <!-- We'll also add some navigation: --> <!-- <a ui-sref="state1">State 1</a>
-    <a ui-sref="state2">State 2</a> --> <!-- Google Analytics: change UA-XXXXX-X to be your site's ID --> <script>!function(A,n,g,u,l,a,r){A.GoogleAnalyticsObject=l,A[l]=A[l]||function(){
-       (A[l].q=A[l].q||[]).push(arguments)},A[l].l=+new Date,a=n.createElement(g),
-       r=n.getElementsByTagName(g)[0],a.src=u,r.parentNode.insertBefore(a,r)
-       }(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <![endif]--> <!-- Navbar Component --> <navbar></navbar> <!-- Main view element --> <div ui-view class="main"></div> <!-- Development environemnt  --> <development-environment></development-environment> <!-- Google Analytics --> <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');</script> <script src="scripts/vendor.9677fac7.js"></script> <script src="scripts/scripts.aee2dc52.js"></script> </body> </html>
+      ga('create', 'UA-70180406-2', 'auto');
+      ga('send', 'pageview');</script> <script src="scripts/vendor.a93d75ce.js"></script> <script src="scripts/scripts.be1fe9a3.js"></script> </body> </html>
